@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter'
 
 // function App() {
 //   return (
@@ -33,6 +34,9 @@ const App: React.FunctionComponent<AppProps> = ({ message }) => {
     <div className="App">
       <div>React Typescript</div>
       <div>{ message }</div>
+      <div>
+        <Counter />
+      </div>
     </div>
     )
 }
