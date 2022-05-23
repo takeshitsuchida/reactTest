@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter'
+import CounterWithReducer from './CounterWithReducer'
 
 // function App() {
 //   return (
@@ -34,8 +35,13 @@ const App: React.FunctionComponent<AppProps> = ({ message }) => {
     <div className="App">
       <div>React Typescript</div>
       <div>{ message }</div>
+      <h3>Counter</h3>
       <div>
         <Counter />
+      </div>
+      <h3>CounterWithReducer</h3>
+      <div>
+        <CounterWithReducer />
       </div>
     </div>
     )
